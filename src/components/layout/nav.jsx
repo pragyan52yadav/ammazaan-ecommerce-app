@@ -1,30 +1,31 @@
-import '../../styles/nav.css';
-import CartSvg from '../assets/svg/svg';
+import "../../styles/nav.css";
+import CartSvg from "../assets/svg/svg";
+import { Link, withRouter } from "react-router-dom";
 
 const Nav = () => {
-    return (
-        <>
-            <nav>
+  return (
+    <>
+      <nav className="nav">
         <ul>
-            <li>
-                <a href="./index.html">
-                    <CartSvg />
-                </a>
-            </li>
-            <li>
-                <a href="/category">
-                    Category
-                </a>
-            </li>
-            <li>
-                <a href="/about">
-                    About Us
-                </a>
-            </li>
+          <li>
+            <Link class="" to="/">
+              <CartSvg />
+            </Link>
+          </li>
+          <li>
+            <Link class="" to="/category">
+              Category
+            </Link>
+          </li>
+          <li>
+            <Link class="" to="/about">
+              About Us
+            </Link>
+          </li>
         </ul>
-    </nav>
-        </>
-    );
-}
+      </nav>
+    </>
+  );
+};
 
-export default Nav;
+export default withRouter(Nav);
