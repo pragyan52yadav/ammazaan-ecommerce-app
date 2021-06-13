@@ -1,11 +1,11 @@
-import '../../styles/offer.css';
+import "../../styles/offer.css";
 
 const Offer = () => {
-    return (
-        <>
-        <div>Something will come</div>
-        </>
-    );
-}
+  return (
+    <>
+      <div>Something will come</div>
+    </>
+  );
+};
 
 export default Offer;

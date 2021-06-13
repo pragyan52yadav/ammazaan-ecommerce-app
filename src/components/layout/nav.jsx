@@ -13,7 +13,7 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link class="" to="/category">
+            <Link class="" to="/categories">
               Category
             </Link>
           </li>
