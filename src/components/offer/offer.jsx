@@ -1,4 +1,4 @@
-import './offer.css';
+import '../../styles/offer.css';
 
 const Offer = () => {
     return (

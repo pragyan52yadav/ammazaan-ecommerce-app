@@ -1,5 +1,5 @@
-import './nav.css';
-import Cart_svg from '../assets/svg';
+import '../../styles/nav.css';
+import CartSvg from '../assets/svg/svg';
 
 const Nav = () => {
     return (
@@ -8,16 +8,16 @@ const Nav = () => {
         <ul>
             <li>
                 <a href="./index.html">
-                    <Cart_svg />
+                    <CartSvg />
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="/category">
                     Category
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="/about">
                     About Us
                 </a>
             </li>

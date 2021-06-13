@@ -1,5 +1,5 @@
-import Item from './item';
-import './category.css';
+import Item from '../item/item';
+import '../../styles/category.css';
 
 const Category = () => {
     return (

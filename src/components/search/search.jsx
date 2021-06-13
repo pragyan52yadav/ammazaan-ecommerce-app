@@ -1,3 +1,5 @@
+import '../../styles/search.css';
+
 const Search = () => {
   return (
     <div class="search">

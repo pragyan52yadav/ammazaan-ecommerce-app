@@ -1,6 +1,6 @@
-import '../assets/svg.css';
+import '../../../styles/svg.css';
 
-const Cart_svg = () => {
+const CartSvg = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -24,4 +24,4 @@ const Cart_svg = () => {
   );
 };
 
-export default Cart_svg;
+export default CartSvg;

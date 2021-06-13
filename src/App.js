@@ -1,7 +1,7 @@
 import "./App.css";
-import Nav from "./components/nav/nav";
+import Nav from "./components/layout/nav";
 import Offer from "./components/offer/offer";
-import Footer from "./components/footer/footer";
+import Footer from "./components/layout/footer";
 
 const App = () => {
   return (
