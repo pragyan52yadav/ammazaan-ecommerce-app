@@ -1,16 +1,15 @@
 import "../../styles/dev_profile.css";
 
-
-const DevProfile = () => {
+const DevProfile = (props) => {
   return (
     <div className="profile">
       <img
-        src="https://miro.medium.com/max/2400/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
-        alt="Dev"
+        src={props.images.image}
+        alt=""
         className="dev_image"
       />
       <div className="name">
-        <p>Dev Name</p>
+        <p>{props.images.name}</p>
       </div>
     </div>
   );
