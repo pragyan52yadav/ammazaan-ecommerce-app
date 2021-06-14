@@ -1,17 +1,22 @@
 .nav_div {
+  display: flex;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
   background-color: #333;
   max-height: 6rem;
+  justify-content: space-between;
 }
 
-.nav_div > ul {
+.ul_div {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
 }
 
 ul {
   display: flex;
-  float: inline-end;
   margin: 2rem 5rem 2rem 2rem;
+  list-style-type: none;
 }
 
 .cart-icon {
@@ -54,8 +59,4 @@ ul {
 .link {
   text-decoration: none;
   color: #808080;
-}
-
-ul {
-  list-style-type: none;
 }

@@ -3,19 +3,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import { Nav, Footer } from "./components/layout";
 import {
-<<<<<<< HEAD
   Home,
   About,
   CategoryPages,
   ProductList,
   CartPage,
-=======
-    Home,
-    About,
-    CategoryPages,
-    ProductList,
-    CartPage,
->>>>>>> 5970eef2eaeb3d48516c225b6c54968bd9151fbe
 } from "./components/pages";
 
 const App = () => {
