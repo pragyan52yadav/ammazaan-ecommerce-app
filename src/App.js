@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import { Nav, Footer } from "./components/layout";
 import {
-  Home,
-  About,
-  CategoryPages,
-  ProductList,
-  CartPage,
+    Home,
+    About,
+    CategoryPages,
+    ProductList,
+    CartPage,
 } from "./components/pages";
 
 const App = () => {
