@@ -24,8 +24,6 @@ ul {
   align-items: center;
   max-width: 10px;
   max-height: 10px;
-  /* border: 2px solid black; */
-  /* background-color: rgba(102, 171, 213); */
 }
 
 .cart-icon:hover {
@@ -57,17 +55,6 @@ ul {
   text-decoration: none;
   color: #808080;
 }
-
-/* .link:active {
-  color: rgb(255, 255, 255);
-} */
-
-/* .about-us-link:hover,
-.category-link:hover,
-.all-products-link:hover,
-.cart-icon:hover {
-  opacity: 0.6;
-} */
 
 ul {
   list-style-type: none;

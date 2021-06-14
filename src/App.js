@@ -2,7 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import { Nav, Footer } from "./components/layout";
-import { Home, About, CategoryPages, ProductList, CartPage } from "./components/pages";
+import {
+  Home,
+  About,
+  CategoryPages,
+  ProductList,
+  CartPage,
+} from "./components/pages";
 
 const App = () => {
   return (

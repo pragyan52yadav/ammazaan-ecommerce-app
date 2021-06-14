@@ -2,8 +2,10 @@ import "../../styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <div>&#169; Made for IEEE-IIITD Competition</div>
+    <footer className="footer">
+      <div className="footer_div">
+        <span className="footer_text">&#169; Made for IEEE-IIITD Competition</span>
+      </div>
     </footer>
   );
 };
