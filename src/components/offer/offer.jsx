@@ -1,23 +1,33 @@
-import Slider from './slider';
-import '../../styles/offer.css'
+import Item1 from "../assets/Item1.png";
+import Item2 from "../assets/Item2.png";
+import Item3 from "../assets/Item3.png";
+import Item4 from "../assets/Item4.png";
+import Slider from "./slider";
+import "../../styles/offer.css";
 
 const ImageData = [
   {
-    image: "https://images.freeimages.com/images/small-previews/eee/summer-nature-3-1370238.jpg",
+    image: Item1,
   },
   {
-    image: "https://images.freeimages.com/images/small-previews/773/koldalen-4-1384902.jpg",
+    image: Item2,
   },
   {
-    image: "https://images.freeimages.com/images/small-previews/716/flower-1372780.jpg",
+    image: Item3,
   },
   {
-    image: "https://images.freeimages.com/images/small-previews/10f/autumn-1-1382513.jpg",
+    image: Item4,
   },
 ];
 
 const Offer = () => {
-  return <Slider slides={ImageData} />;
+  return (
+    <>
+      <div className="Offer_div">
+        <Slider slides={ImageData} />
+      </div>
+    </>
+  );
 };
 
 export default Offer;

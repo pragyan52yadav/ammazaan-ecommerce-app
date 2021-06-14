@@ -1,18 +1,22 @@
 .Offer {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
-.rightArrow{
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    font-size: 2rem;
+.Offer_div {
+  top: 30px;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  font-size: 2rem;
 }
 
 .leftArrow {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  font-size: 2rem;
 }
