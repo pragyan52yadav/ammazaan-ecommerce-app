@@ -1,11 +1,17 @@
+.profile_div{
+    display: flex;
+}
+
 .profile {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #353434;
   border-radius: 1.5rem;
   margin: 2rem;
+  transition: transform .2s;
+  padding: 3rem;
 }
 
 .img_div {
@@ -19,7 +25,6 @@
 }
 
 .name {
-  display: block;
   padding-left: 5.3rem;
   padding-right: 5.3rem;
   padding-top: 1.5rem;
@@ -29,5 +34,26 @@
 }
 
 .profile:hover {
-    display: block;
+    transform: scale(1.1);
+}
+
+.insta-icon {
+    margin-top: 3rem;
+}
+
+.insta {
+    font-size: 2rem;
+}
+
+.insta-link {
+    text-decoration: none;
+    color: #833AB4;
+}
+
+.comment {
+    margin-top: 3rem;
+}
+
+.comment_txt {
+    text-align: center;
 }
