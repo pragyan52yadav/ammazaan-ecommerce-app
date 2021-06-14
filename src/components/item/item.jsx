@@ -1,17 +1,17 @@
 import "../../styles/item.css";
 
-const Item = () => {
+const Item = (props) => {
   return (
-    <div className="item">
+    <div className="product_card">
       <img
-        src="https://i.pinimg.com/originals/2f/c9/db/2fc9db8b1f8ebc35d4762ba1c54bc067.jpg"
-        alt="Blue Dress"
+        src={props.data.image}
+        alt=""
         class="product_image"
+        style={{width: "100%"}}
       />
-      <div class="detail">
-        <p>Blue Dress Rs. 6969</p>
-        <button>Add to Cart</button>
-      </div>
+      <h3>{props.data.title}</h3>
+      <h4 className="price">$ {props.data.price}</h4>
+      <button className="product_button">Add to Cart</button>
     </div>
   );
 };
