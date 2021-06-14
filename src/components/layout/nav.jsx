@@ -1,4 +1,5 @@
 import "../../styles/nav.css";
+import Logo from "../assets/Logo.png";
 import CartSvg from "../assets/svg/svg";
 import { Link, withRouter } from "react-router-dom";
 
@@ -7,7 +8,7 @@ const Nav = () => {
     <>
       <nav className="nav">
         <Link class="a_logo" to="/">
-          <img src="../assets/Logo.png" alt="Ammazaan" className="logo"/>
+          <img src={Logo} alt="Ammazaan" className="logo" />
         </Link>
         <ul list-style-type>
           <li>
