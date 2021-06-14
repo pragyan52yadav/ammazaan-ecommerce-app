@@ -35,7 +35,7 @@ ul {
   background-color: gray;
 }
 
-.cart_link > svg{
+.cart_link > svg {
   margin: 0;
   position: relative;
   align-items: center;
@@ -52,7 +52,7 @@ ul {
   padding: 0 1rem 0 1rem;
 }
 
-.link_li:hover > .link{
+.link_li:hover > .link {
   color: rgb(255, 255, 255);
 }
 
