@@ -3,7 +3,6 @@ import DevProfile from "../profile/dev_profile";
 import Khwaish from "../assets/Khwaish.jpg";
 import Pragyan from "../assets/Pragyan.jpeg";
 import Ronit from "../assets/Ronit.jpeg";
-// import P;
 
 const devImages = [
   {

@@ -1,0 +1,33 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 1.5rem;
+  margin: 2rem;
+}
+
+.img_div {
+    margin: 1rem;
+}
+
+.dev_image {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 100%;
+}
+
+.name {
+  display: block;
+  padding-left: 5.3rem;
+  padding-right: 5.3rem;
+  padding-top: 1.5rem;
+  height: 35px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.profile:hover {
+    display: block;
+}
