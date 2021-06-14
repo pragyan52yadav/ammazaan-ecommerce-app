@@ -15,15 +15,15 @@ ul {
 }
 
 .cart-icon {
-  position: absolute;
-  top: 1.5rem;
-  right: 1rem;
   border-radius: 100%;
   background-color: #ffffffcb;
   padding: 1rem;
   align-items: center;
-  max-width: 10px;
-  max-height: 10px;
+  max-width: 40px;
+  max-height: 40px;
+  position: absolute;
+  right: -100px;
+  top: -1px;
 }
 
 .cart-icon:hover {
@@ -32,8 +32,12 @@ ul {
 
 .cart_link > svg {
   margin: 0;
-  position: relative;
   align-items: center;
+  max-width: 40px;
+  max-height: 40px;
+  position: absolute;
+  right: 6px;
+  top: 5px;
 }
 
 .logo {
@@ -45,6 +49,16 @@ ul {
 
 .link_li {
   padding: 0 1rem 0 1rem;
+}
+
+.list {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+}
+
+.link_li:hover {
+  opacity: 0.5;
 }
 
 .link_li:hover > .link {

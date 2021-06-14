@@ -11,7 +11,7 @@ const Nav = () => {
           <Link className="a_logo" to="/">
             <img src={Logo} alt="Ammazaan" className="logo" />
           </Link>
-          <ul>
+          <ul className="list">
             <li className="link_li">
               <Link className="link" to="/categories">
                 Category
