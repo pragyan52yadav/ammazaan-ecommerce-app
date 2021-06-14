@@ -1,0 +1,17 @@
+.select_div {
+    display: flex;
+    margin: auto;
+}
+
+.select_cat {
+    width: 100%;
+    margin: 2rem;
+    border-radius: 2rem;
+    border-color: transparent;
+    background-color: #e6e6e6;
+    padding: 0.5rem 1rem;
+}
+
+option:hover {
+    background-color: aqua;
+}
