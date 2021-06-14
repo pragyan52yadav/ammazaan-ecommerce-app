@@ -1,7 +1,7 @@
 .product_card {
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.3);
     max-width: 250px;
-    margin: auto;
+    margin: 2rem auto;
     text-align: center;
     font-family: arial;
     border-radius: 7px;
