@@ -8,9 +8,9 @@ const DevProfile = (props) => {
         alt=""
         className="dev_image"
       />
-      <div className="name">
+      <span className="name">
         <p>{props.images.name}</p>
-      </div>
+      </span>
     </div>
   );
 };
