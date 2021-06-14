@@ -1,11 +1,29 @@
-import '../../styles/search.css';
+import "../../styles/search.css";
+import React from "react";
 
-const Search = () => {
-  return (
-    <div class="search">
-      <input type="search" name="search" id="search" placeholder="Search" />
-    </div>
-  );
-};
+class Search extends React.Component {
+  state = { term: "" };
+
+  onFormSubmit = (event) => {
+    event.preventDefault();
+    this.props.onSubmit(this.state.term);
+  };
+  render() {
+    return (
+      <div className="ui segment">
+        <form className="ui form" onSubmit={this.onFormSubmit}>
+          <div className="field">
+            <label>Product Search</label>
+            <input
+              type="text"
+              value={this.state.term}
+              onChange={(event) => this.setState({ term: event.target.value })}
+            />
+          </div>
+        </form>
+      </div>
+    );
+  }
+}
 
 export default Search;
