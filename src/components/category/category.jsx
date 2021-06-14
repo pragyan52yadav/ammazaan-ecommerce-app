@@ -64,7 +64,13 @@ class Category extends React.Component {
     render() {
         const prl = this.state.products.map((stt) => {
             //console.log(stt, "stt");
-            return <Item key={stt[0].id} data={stt[0]} />;
+            return (
+                <Item
+                    key={stt[0].id}
+                    data={stt[0]}
+                    onAddToCart={this.props.onAddToCart}
+                />
+            );
         });
         //console.log(prl);
         return (
