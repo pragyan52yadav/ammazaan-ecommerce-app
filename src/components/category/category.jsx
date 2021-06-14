@@ -61,7 +61,7 @@ class Category extends React.Component {
                     <option value="jewelery">Jewelery</option>
                     <option value="men clothing">Men's clothing</option>
                 </select>
-                <div className="product-list" style={{ marginTop: "10px" }}>
+                <div className="product_list" style={{ marginTop: "10px" }}>
                     {prl}
                 </div>
             </div>
