@@ -11,28 +11,30 @@ const Nav = () => {
           <Link className="a_logo" to="/">
             <img src={Logo} alt="Ammazaan" className="logo" />
           </Link>
-          <ul className="list">
-            <li className="link_li">
-              <Link className="link" to="/categories">
-                Category
-              </Link>
-            </li>
-            <li className="link_li">
-              <Link className="link" to="/productList">
-                All Products
-              </Link>
-            </li>
-            <li className="link_li">
-              <Link className="link" to="/about">
-                About Us
-              </Link>
-            </li>
-            <li className="cart-icon">
-              <Link className="cart_link" to="/cart">
-                <CartSvg />
-              </Link>
-            </li>
-          </ul>
+          <div className="ul_div">
+            <ul>
+              <li className="link_li">
+                <Link className="link" to="/categories">
+                  Category
+                </Link>
+              </li>
+              <li className="link_li">
+                <Link className="link" to="/productList">
+                  All Products
+                </Link>
+              </li>
+              <li className="link_li">
+                <Link className="link" to="/about">
+                  About Us
+                </Link>
+              </li>
+              <li className="cart-icon">
+                <Link className="cart_link" to="/cart">
+                  <CartSvg />
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </>
