@@ -3,7 +3,7 @@ import "../../styles/footer.css";
 const Footer = () => {
   return (
     <footer>
-      <div>&#169; Made for IEEE-IIITD Competition</div>
+      <div className="footer">&#169; Made for IEEE-IIITD Competition</div>
     </footer>
   );
 };
