@@ -23,7 +23,7 @@ const ImageData = [
 const Offer = () => {
   return (
     <>
-      <div className="Offer_div">
+      <div className="offer_div">
         <Slider slides={ImageData} />
       </div>
     </>

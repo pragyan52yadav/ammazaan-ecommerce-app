@@ -1,6 +1,16 @@
 .footer {
-  clear: both;
-  position: relative;
-  height: 200px;
-  margin-top: -1px;
+  background-color: #333;
+  bottom: 0;
+}
+
+.footer_div {
+  margin: 2rem 2rem 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_text {
+  padding: 1rem;
+  color: white;
 }
