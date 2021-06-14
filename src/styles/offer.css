@@ -3,20 +3,21 @@
   text-align: center;
 }
 
-.Offer_div {
-  top: 30px;
+.offer_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0 0 0
 }
 
 .rightArrow {
   position: absolute;
-  top: 50%;
   right: 20px;
   font-size: 2rem;
 }
 
 .leftArrow {
   position: absolute;
-  top: 50%;
   left: 20px;
   font-size: 2rem;
 }
