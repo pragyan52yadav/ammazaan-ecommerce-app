@@ -67,7 +67,7 @@ class Products extends React.Component {
         return (
             <div className="">
                 <Search onSubmit={this.onSearchSubmit} />
-                <div className="product-list" style={{ marginTop: "10px" }}>
+                <div className="product_list" style={{ marginTop: "10px" }}>
                     {prl}
                 </div>
             </div>
