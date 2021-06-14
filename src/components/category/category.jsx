@@ -4,7 +4,7 @@ import '../../styles/category.css';
 const Category = () => {
     return (
         <div className="category">
-            <Item />
+            Something will come
         </div>
     );
 }

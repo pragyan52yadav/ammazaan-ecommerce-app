@@ -18,6 +18,11 @@ const Nav = () => {
             </Link>
           </li>
           <li>
+            <Link class="" to="/productList">
+              All Products
+            </Link>
+          </li>
+          <li>
             <Link class="" to="/about">
               About Us
             </Link>

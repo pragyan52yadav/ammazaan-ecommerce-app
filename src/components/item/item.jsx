@@ -7,7 +7,7 @@ const Item = (props) => {
       <img
         src={props.data.image}
         alt=""
-        class="product_image"
+        className="product_image"
         style={{ width: "100%" }}
       />
       <h3>{props.data.title}</h3>
