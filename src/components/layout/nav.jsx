@@ -6,25 +6,28 @@ const Nav = () => {
   return (
     <>
       <nav className="nav">
+        <Link class="a_logo" to="/">
+          <img src="../assets/Logo.png" alt="Ammazaan" className="logo"/>
+        </Link>
         <ul>
           <li>
-            <Link class="" to="/">
-              <CartSvg />
-            </Link>
-          </li>
-          <li>
-            <Link class="" to="/categories">
+            <Link className="" to="/categories">
               Category
             </Link>
           </li>
           <li>
-            <Link class="" to="/productList">
+            <Link className="" to="/productList">
               All Products
             </Link>
           </li>
           <li>
-            <Link class="" to="/about">
+            <Link className="" to="/about">
               About Us
+            </Link>
+          </li>
+          <li>
+            <Link className="" to="/cart">
+              <CartSvg />
             </Link>
           </li>
         </ul>

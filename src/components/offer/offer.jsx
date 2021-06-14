@@ -3,16 +3,16 @@ import '../../styles/offer.css'
 
 const ImageData = [
   {
-    image: "https://images.freeimages.com/images/small-previews/eee/summer-nature-3-1370238.jpg",
+    image: "../assets/Item1.png",
   },
   {
-    image: "https://images.freeimages.com/images/small-previews/773/koldalen-4-1384902.jpg",
+    image: "../assets/Item2.png",
   },
   {
-    image: "https://images.freeimages.com/images/small-previews/716/flower-1372780.jpg",
+    image: "../assets/Item3.png",
   },
   {
-    image: "https://images.freeimages.com/images/small-previews/10f/autumn-1-1382513.jpg",
+    image: "../assets/Item4.png",
   },
 ];
 
