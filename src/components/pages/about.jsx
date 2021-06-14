@@ -24,7 +24,11 @@ const Profile = devImages.map((images) => {
   return <DevProfile images={images} />;
 });
 const About = () => {
-  return <>{Profile}</>;
+  return (
+    <>
+      <div className="about">{Profile}</div>
+    </>
+  );
 };
 
 export default About;
