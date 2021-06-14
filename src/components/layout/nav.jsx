@@ -11,23 +11,23 @@ const Nav = () => {
           <img src={Logo} alt="Ammazaan" className="logo" />
         </Link>
         <ul list-style-type>
-          <li>
-            <Link className="category-link" to="/categories">
+          <li className="category-link">
+            <Link className="link" to="/categories">
               Category
             </Link>
           </li>
-          <li>
-            <Link className="all-products-link" to="/productList">
+          <li className="all-products-link">
+            <Link className="Link" to="/productList">
               All Products
             </Link>
           </li>
-          <li>
-            <Link className="about-us-link" to="/about">
+          <li className="about-us-link">
+            <Link className="Link" to="/about">
               About Us
             </Link>
           </li>
-          <li>
-            <Link className="cart-icon" to="/cart">
+          <li className="cart-icon">
+            <Link to="/cart">
               <CartSvg />
             </Link>
           </li>
