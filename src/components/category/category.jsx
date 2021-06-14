@@ -1,5 +1,4 @@
 import React from "react";
-
 import Item from "../item/item";
 import "../../styles/category.css";
 
@@ -69,13 +68,15 @@ class Category extends React.Component {
         //console.log(prl);
         return (
             <div className="">
-                <select onChange={this.handleChange} name="cars" id="cars">
+                <div className="select_div">
+                <select className="select_cat" onChange={this.handleChange} name="cars" id="cars">
                     <option value="">Select Category</option>
                     <option value="women's clothing">Women's clothing</option>
                     <option value="electronics">Electronics</option>
                     <option value="jewelery">Jewelery</option>
                     <option value="men's clothing">Men's clothing</option>
                 </select>
+                </div>
                 <div className="product_list" style={{ marginTop: "10px" }}>
                     {prl}
                 </div>
