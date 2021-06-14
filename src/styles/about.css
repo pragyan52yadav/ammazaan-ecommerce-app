@@ -1,0 +1,12 @@
+.profile {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.dev_image {
+  max-height: 20rem;
+  max-width: 20rem;
+  border-radius: 100%;
+  border: 5px solid black;
+}
