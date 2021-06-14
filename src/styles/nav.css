@@ -27,8 +27,8 @@ ul {
   max-width: 40px;
   max-height: 40px;
   position: absolute;
-  right: -100px;
-  top: -1px;
+  right: 2rem;
+  top: 2rem;
 }
 
 .cart-icon:hover {
