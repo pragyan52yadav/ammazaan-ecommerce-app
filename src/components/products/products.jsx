@@ -11,6 +11,8 @@ class Products extends React.Component {
         //     params: { query: term },
         // });
         // this.setState({ images: response.data.results });
+        let khww = await this.getAllProducts();
+        this.setState({ products: khww });
         if (term === "") {
             return;
         }
@@ -18,7 +20,11 @@ class Products extends React.Component {
         let x = Object.keys(this.state.products);
         for (let element in x) {
             //console.log(x);
-            if (this.state.products[element][0]["title"].indexOf(term) !== -1) {
+            if (
+                this.state.products[element][0]["title"]
+                    .toLowerCase()
+                    .indexOf(term.toLowerCase()) !== -1
+            ) {
                 khw.push([
                     {
                         category: this.state.products[element][0]["category"],
@@ -35,7 +41,7 @@ class Products extends React.Component {
         this.setState({ products: khw });
     };
 
-    componentDidMount = async () => {
+    getAllProducts = async () => {
         const response = await fetch("https://fakestoreapi.com/products/");
         const wtf = await response.json();
         //console.log(wtf["2"]);
@@ -54,6 +60,11 @@ class Products extends React.Component {
                 },
             ]);
         }
+        return khw;
+    };
+
+    componentDidMount = async () => {
+        let khw = await this.getAllProducts();
         this.setState({ products: khw });
     };
 
