@@ -1,5 +1,6 @@
 import "../../styles/dev_profile.css";
 
+
 const DevProfile = () => {
   return (
     <div className="profile">
